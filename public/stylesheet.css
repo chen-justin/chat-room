@@ -1,0 +1,39 @@
+
+body {
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+    background-color: #32323b;
+    color: #fdfdfd;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+
+.input { 
+    background: #32323b;
+    padding: 3px; 
+    position: fixed; 
+    bottom: 0; 
+    width: 100%; 
+}
+
+.input input { 
+    border: 0; 
+    color: #fdfdfd;
+    background:  #4f5259;
+    padding: 15px 2.5%; 
+    width: 90%;
+    border-radius: 10px;
+    margin: 2.5% 0 3% 2.5%;
+}
+
+#messages { 
+    list-style-type: none; 
+    margin: 0 1.5%; 
+    padding: 0; 
+}
+
+#messages li { 
+    border-top: 1px solid #505059;
+    padding: 5px 10px; 
+}
